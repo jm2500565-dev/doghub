@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 // Added ShieldAlert to the lucide-react imports to fix line 121 error
 import { Search, Loader2, ExternalLink, CheckCircle2, AlertTriangle, ShieldAlert } from 'lucide-react';
-import { summarizeRepo } from '../services/gemini';
-import { GitHubSummary } from '../types';
+import { summarizeRepo } from '../services/gemini.ts';
+import { GitHubSummary } from '../types.ts';
 
 interface GitHubShieldProps {
   isFocusActive: boolean;

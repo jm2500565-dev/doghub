@@ -10,10 +10,10 @@ import {
   Github,
   Zap
 } from 'lucide-react';
-import { AppView, FocusSession } from './types';
-import Dashboard from './components/Dashboard';
-import GitHubShield from './components/GitHubShield';
-import Arcade from './components/Arcade';
+import { AppView, FocusSession } from './types.ts';
+import Dashboard from './components/Dashboard.tsx';
+import GitHubShield from './components/GitHubShield.tsx';
+import Arcade from './components/Arcade.tsx';
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<AppView>(AppView.DASHBOARD);

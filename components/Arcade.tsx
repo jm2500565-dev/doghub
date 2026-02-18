@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
-import { GameType } from '../types';
-import SnakeGame from './games/SnakeGame';
-import MemoryGame from './games/MemoryGame';
-import GeminiQuest from './games/GeminiQuest';
+import { GameType } from '../types.ts';
+import SnakeGame from './games/SnakeGame.tsx';
+import MemoryGame from './games/MemoryGame.tsx';
+import GeminiQuest from './games/GeminiQuest.tsx';
 import { ChevronLeft, Play } from 'lucide-react';
 
 const Arcade: React.FC = () => {

@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { Send, Terminal, Loader2, Sparkles } from 'lucide-react';
-import { generateQuestStep } from '../../services/gemini';
+import { generateQuestStep } from '../../services/gemini.ts';
 
 const GeminiQuest: React.FC = () => {
   const [history, setHistory] = useState<{ role: 'user' | 'model', text: string }[]>([]);
