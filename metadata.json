@@ -1,0 +1,7 @@
+{
+  "name": "GitFocus Arcade",
+  "description": "A productivity dashboard that serves as a surrogate environment for GitHub to prevent 'rabbit hole' browsing, featuring built-in focus tools and an AI-powered game arcade.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
